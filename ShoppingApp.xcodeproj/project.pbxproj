@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		1CC157AF27C5720C008C6919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157AE27C5720C008C6919 /* AppDelegate.swift */; };
 		1CC157B127C5720C008C6919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157B027C5720C008C6919 /* SceneDelegate.swift */; };
-		1CC157B327C5720C008C6919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157B227C5720C008C6919 /* ViewController.swift */; };
-		1CC157B627C5720C008C6919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC157B427C5720C008C6919 /* Main.storyboard */; };
 		1CC157B827C5720E008C6919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CC157B727C5720E008C6919 /* Assets.xcassets */; };
 		1CC157BB27C5720E008C6919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC157B927C5720E008C6919 /* LaunchScreen.storyboard */; };
 		1CC157C627C5720E008C6919 /* ShoppingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157C527C5720E008C6919 /* ShoppingAppTests.swift */; };
 		1CC157D027C5720E008C6919 /* ShoppingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157CF27C5720E008C6919 /* ShoppingAppUITests.swift */; };
 		1CC157D227C5720E008C6919 /* ShoppingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157D127C5720E008C6919 /* ShoppingAppUITestsLaunchTests.swift */; };
+		1CC157E227C574EE008C6919 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157E127C574EE008C6919 /* AppCoordinator.swift */; };
+		1CC157E427C57508008C6919 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157E327C57508008C6919 /* Coordinator.swift */; };
+		1CC157E627C5752D008C6919 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157E527C5752D008C6919 /* AppContainer.swift */; };
+		1CC157E927C57579008C6919 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157E827C57579008C6919 /* ProductListViewController.swift */; };
+		1CC157EB27C5759E008C6919 /* ProductListContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157EA27C5759E008C6919 /* ProductListContracts.swift */; };
+		1CC157ED27C575A8008C6919 /* ProductList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC157EC27C575A8008C6919 /* ProductList.storyboard */; };
+		1CC157EF27C575D0008C6919 /* ProductListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157EE27C575D0008C6919 /* ProductListCoordinator.swift */; };
+		1CC157F127C575DA008C6919 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157F027C575DA008C6919 /* ProductListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		1CC157AB27C5720C008C6919 /* ShoppingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC157AE27C5720C008C6919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CC157B027C5720C008C6919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CC157B227C5720C008C6919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1CC157B527C5720C008C6919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CC157B727C5720E008C6919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CC157BA27C5720E008C6919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CC157BC27C5720E008C6919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		1CC157CB27C5720E008C6919 /* ShoppingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CC157CF27C5720E008C6919 /* ShoppingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingAppUITests.swift; sourceTree = "<group>"; };
 		1CC157D127C5720E008C6919 /* ShoppingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1CC157E127C574EE008C6919 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		1CC157E327C57508008C6919 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		1CC157E527C5752D008C6919 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		1CC157E827C57579008C6919 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		1CC157EA27C5759E008C6919 /* ProductListContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListContracts.swift; sourceTree = "<group>"; };
+		1CC157EC27C575A8008C6919 /* ProductList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductList.storyboard; sourceTree = "<group>"; };
+		1CC157EE27C575D0008C6919 /* ProductListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCoordinator.swift; sourceTree = "<group>"; };
+		1CC157F027C575DA008C6919 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +111,9 @@
 		1CC157AD27C5720C008C6919 /* ShoppingApp */ = {
 			isa = PBXGroup;
 			children = (
-				1CC157AE27C5720C008C6919 /* AppDelegate.swift */,
-				1CC157B027C5720C008C6919 /* SceneDelegate.swift */,
-				1CC157B227C5720C008C6919 /* ViewController.swift */,
-				1CC157B427C5720C008C6919 /* Main.storyboard */,
-				1CC157B727C5720E008C6919 /* Assets.xcassets */,
+				1CC157E027C574C0008C6919 /* App */,
+				1CC157E727C5756B008C6919 /* Scene */,
+				1CC157F227C57BEE008C6919 /* Resources */,
 				1CC157B927C5720E008C6919 /* LaunchScreen.storyboard */,
 				1CC157BC27C5720E008C6919 /* Info.plist */,
 			);
@@ -125,6 +135,38 @@
 				1CC157D127C5720E008C6919 /* ShoppingAppUITestsLaunchTests.swift */,
 			);
 			path = ShoppingAppUITests;
+			sourceTree = "<group>";
+		};
+		1CC157E027C574C0008C6919 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1CC157AE27C5720C008C6919 /* AppDelegate.swift */,
+				1CC157B027C5720C008C6919 /* SceneDelegate.swift */,
+				1CC157E127C574EE008C6919 /* AppCoordinator.swift */,
+				1CC157E327C57508008C6919 /* Coordinator.swift */,
+				1CC157E527C5752D008C6919 /* AppContainer.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1CC157E727C5756B008C6919 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1CC157EE27C575D0008C6919 /* ProductListCoordinator.swift */,
+				1CC157EA27C5759E008C6919 /* ProductListContracts.swift */,
+				1CC157EC27C575A8008C6919 /* ProductList.storyboard */,
+				1CC157E827C57579008C6919 /* ProductListViewController.swift */,
+				1CC157F027C575DA008C6919 /* ProductListViewModel.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		1CC157F227C57BEE008C6919 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1CC157B727C5720E008C6919 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +275,7 @@
 			files = (
 				1CC157BB27C5720E008C6919 /* LaunchScreen.storyboard in Resources */,
 				1CC157B827C5720E008C6919 /* Assets.xcassets in Resources */,
-				1CC157B627C5720C008C6919 /* Main.storyboard in Resources */,
+				1CC157ED27C575A8008C6919 /* ProductList.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC157B327C5720C008C6919 /* ViewController.swift in Sources */,
+				1CC157E227C574EE008C6919 /* AppCoordinator.swift in Sources */,
+				1CC157E927C57579008C6919 /* ProductListViewController.swift in Sources */,
+				1CC157EB27C5759E008C6919 /* ProductListContracts.swift in Sources */,
+				1CC157EF27C575D0008C6919 /* ProductListCoordinator.swift in Sources */,
+				1CC157E427C57508008C6919 /* Coordinator.swift in Sources */,
+				1CC157F127C575DA008C6919 /* ProductListViewModel.swift in Sources */,
 				1CC157AF27C5720C008C6919 /* AppDelegate.swift in Sources */,
 				1CC157B127C5720C008C6919 /* SceneDelegate.swift in Sources */,
+				1CC157E627C5752D008C6919 /* AppContainer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +345,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1CC157B427C5720C008C6919 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CC157B527C5720C008C6919 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1CC157B927C5720E008C6919 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,7 +483,6 @@
 				INFOPLIST_FILE = ShoppingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +509,6 @@
 				INFOPLIST_FILE = ShoppingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
