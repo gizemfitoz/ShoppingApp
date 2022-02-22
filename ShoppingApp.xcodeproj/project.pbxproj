@@ -61,6 +61,7 @@
 		1CC157EC27C575A8008C6919 /* ProductList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProductList.storyboard; sourceTree = "<group>"; };
 		1CC157EE27C575D0008C6919 /* ProductListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCoordinator.swift; sourceTree = "<group>"; };
 		1CC157F027C575DA008C6919 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		1CC157F427C57E7A008C6919 /* Service */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Service; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +92,7 @@
 		1CC157A227C5720C008C6919 = {
 			isa = PBXGroup;
 			children = (
+				1CC157F427C57E7A008C6919 /* Service */,
 				1CC157AD27C5720C008C6919 /* ShoppingApp */,
 				1CC157C427C5720E008C6919 /* ShoppingAppTests */,
 				1CC157CE27C5720E008C6919 /* ShoppingAppUITests */,
