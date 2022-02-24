@@ -22,6 +22,7 @@
 		1CC157ED27C575A8008C6919 /* ProductList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CC157EC27C575A8008C6919 /* ProductList.storyboard */; };
 		1CC157EF27C575D0008C6919 /* ProductListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157EE27C575D0008C6919 /* ProductListCoordinator.swift */; };
 		1CC157F127C575DA008C6919 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157F027C575DA008C6919 /* ProductListViewModel.swift */; };
+		1CC157F927C58819008C6919 /* Service in Frameworks */ = {isa = PBXBuildFile; productRef = 1CC157F827C58819008C6919 /* Service */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC157F927C58819008C6919 /* Service in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +99,7 @@
 				1CC157C427C5720E008C6919 /* ShoppingAppTests */,
 				1CC157CE27C5720E008C6919 /* ShoppingAppUITests */,
 				1CC157AC27C5720C008C6919 /* Products */,
+				1CC157F527C58795008C6919 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -171,6 +174,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		1CC157F527C58795008C6919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,6 +197,9 @@
 			dependencies = (
 			);
 			name = ShoppingApp;
+			packageProductDependencies = (
+				1CC157F827C58819008C6919 /* Service */,
+			);
 			productName = ShoppingApp;
 			productReference = 1CC157AB27C5720C008C6919 /* ShoppingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -487,6 +500,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -513,6 +527,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -638,6 +653,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1CC157F827C58819008C6919 /* Service */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Service;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1CC157A327C5720C008C6919 /* Project object */;
 }

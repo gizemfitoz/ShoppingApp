@@ -1,0 +1,47 @@
+{
+    "products": [
+        {
+            "productId": 785359,
+            "productName": "Apple iPhone 6 32GB Grijs",
+            "reviewInformation": {},
+            "USPs": [
+                "32 GB opslagcapaciteit",
+                "4,7 inch Retina HD scherm",
+                "iOS 11"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 369,
+            "productImage": "https://image.coolblue.nl/300x750/products/818870",
+            "coolbluesChoiceInformationTitle": "middenklasse iPhone",
+            "promoIcon": {
+                "text": "middenklasse iPhone",
+                "type": "coolblues-choice"
+            },
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 788988,
+            "productName": "Apple Magic Keyboard met numeriek toetsenblok QWERTY",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.7,
+                    "reviewCount": 33
+                }
+            },
+            "USPs": [
+                "Draadloos",
+                "Scissor switches",
+                "Mac met bluetooth vereist"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 149,
+            "productImage": "https://image.coolblue.nl/300x750/products/930605",
+            "nextDayDelivery": true
+        }
+    ],
+    "currentPage": 1,
+    "pageSize": 24,
+    "totalResults": 2,
+    "pageCount": 1
+}
