@@ -156,7 +156,7 @@ final class ProductListViewModelTests: XCTestCase {
         let cellViewModel = viewModel.cellViewModel(at: 0)
         // Then
         XCTAssertEqual(cellViewModel.productName, "Apple iPhone X 256GB Zilver")
-        XCTAssertEqual(cellViewModel.salesPrice, "Price: 1279.0")
+        XCTAssertEqual(cellViewModel.salesPrice, "Price: €1,279.00")
         XCTAssertEqual(cellViewModel.nextDayDelivery, true)
         XCTAssertEqual(cellViewModel.productImageUrl?.absoluteString, "https://image.coolblue.nl/300x750/products/984921")
     }

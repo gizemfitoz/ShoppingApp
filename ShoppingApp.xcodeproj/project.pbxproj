@@ -33,6 +33,7 @@
 		1CC1585427C9638D008C6919 /* ProductListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1585327C9638D008C6919 /* ProductListViewModelTests.swift */; };
 		1CC1585627C963CC008C6919 /* ShoppingServiceSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1585527C963CC008C6919 /* ShoppingServiceSpy.swift */; };
 		1CC1585827C96520008C6919 /* search-response.json in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1585727C96520008C6919 /* search-response.json */; };
+		1CC1586427C9884B008C6919 /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1586327C9884B008C6919 /* DoubleExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		1CC1585327C9638D008C6919 /* ProductListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModelTests.swift; sourceTree = "<group>"; };
 		1CC1585527C963CC008C6919 /* ShoppingServiceSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingServiceSpy.swift; sourceTree = "<group>"; };
 		1CC1585727C96520008C6919 /* search-response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "search-response.json"; sourceTree = "<group>"; };
+		1CC1586327C9884B008C6919 /* DoubleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				1CC1580527C8413C008C6919 /* UITableViewExtensions.swift */,
+				1CC1586327C9884B008C6919 /* DoubleExtensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				1CC157E227C574EE008C6919 /* AppCoordinator.swift in Sources */,
 				1CC157E927C57579008C6919 /* ProductListViewController.swift in Sources */,
 				1CC1580627C8413C008C6919 /* UITableViewExtensions.swift in Sources */,
+				1CC1586427C9884B008C6919 /* DoubleExtensions.swift in Sources */,
 				1CC157EB27C5759E008C6919 /* ProductListContracts.swift in Sources */,
 				1CC157EF27C575D0008C6919 /* ProductListCoordinator.swift in Sources */,
 				1CC157E427C57508008C6919 /* Coordinator.swift in Sources */,

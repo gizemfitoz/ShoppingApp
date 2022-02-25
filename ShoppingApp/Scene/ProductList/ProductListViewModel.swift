@@ -8,10 +8,6 @@
 import Service
 
 final class ProductListViewModel: ProductListViewModelProtocol {
-    var reloadProducts: (() -> ())?
-    var loader: ((Bool) -> ())?
-    var showError: ((String) -> ())?
-    var title = "Products"
     private let service: ShoppingServiceProtocol
     private var products: [SearchResponse.Product] = []
     private var isPaginating = false
@@ -22,6 +18,10 @@ final class ProductListViewModel: ProductListViewModelProtocol {
             nextPage = 1
         }
     }
+    var reloadProducts: (() -> ())?
+    var loader: ((Bool) -> ())?
+    var showError: ((String) -> ())?
+    var title = "Products"
 
     init(service: ShoppingServiceProtocol) {
         self.service = service
@@ -79,7 +79,7 @@ final class ProductListViewModel: ProductListViewModelProtocol {
         let product = products[index]
         return ProductCellViewModel(
             productName: product.name,
-            salesPrice: "Price: \(product.salesPrice)",
+            salesPrice: "Price: \(product.salesPrice.eurPrice ?? "0.00")",
             nextDayDelivery: product.nextDayDelivery,
             productImageUrl: product.imageUrl
         )
