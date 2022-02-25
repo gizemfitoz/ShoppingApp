@@ -19,14 +19,12 @@ final class SearchResponseTests: XCTestCase {
         let response = try? JSONDecoder().decode(SearchResponse.self, from: data)
         // Then
         XCTAssertEqual(response?.currentPage, 1)
-        XCTAssertEqual(response?.pageSize, 24)
-        XCTAssertEqual(response?.totalResults, 2)
         XCTAssertEqual(response?.pageCount, 1)
         XCTAssertEqual(response?.products.count, 2)
         XCTAssertEqual(response?.products.first?.id, 785359)
         XCTAssertEqual(response?.products.first?.name, "Apple iPhone 6 32GB Grijs")
         XCTAssertEqual(response?.products.first?.salesPrice, 369)
-        XCTAssertEqual(response?.products.first?.imageUrl, "https://image.coolblue.nl/300x750/products/818870")
+        XCTAssertEqual(response?.products.first?.imageUrl?.absoluteString, "https://image.coolblue.nl/300x750/products/818870")
         XCTAssertTrue(response?.products.first?.nextDayDelivery ?? false)
     }
 }

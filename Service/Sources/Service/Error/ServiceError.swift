@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct ServiceError : LocalizedError {
+public struct ServiceError : LocalizedError {
     private var message : String
 
-    init(_ description: String) {
+    public init(_ description: String) {
         message = description
     }
 }

@@ -12,18 +12,18 @@ final class ProductListViewModel: ProductListViewModelProtocol {
     var loader: ((Bool) -> ())?
     var showError: ((String) -> ())?
     var title = "Products"
-    private let service: ShoppingService
+    private let service: ShoppingServiceProtocol
     private var products: [SearchResponse.Product] = []
     private var isPaginating = false
-    private var page = 0
-    private var totalPages = 0
+    private var nextPage = 1
+    private var totalPages = 1
     private var searchQuery = "" {
         didSet {
-            page = 0
+            nextPage = 1
         }
     }
 
-    init(service: ShoppingService) {
+    init(service: ShoppingServiceProtocol) {
         self.service = service
     }
     
@@ -32,15 +32,14 @@ final class ProductListViewModel: ProductListViewModelProtocol {
     }
     
     func getProducts() {
-        if isPaginating || (totalPages != 0 && self.page == totalPages) {
+        if isPaginating || self.nextPage > totalPages {
             return
         }
         
         isPaginating = true
-        page += 1
 
         loader?(true)
-        service.searchProducts(with: searchQuery, page: page) { [weak self] result in
+        service.searchProducts(with: searchQuery, page: nextPage) { [weak self] result in
             guard let self = self else { return }
             self.loader?(false)
             
@@ -49,6 +48,7 @@ final class ProductListViewModel: ProductListViewModelProtocol {
             switch result {
             case let .success(response):
                 self.totalPages = response.pageCount
+                self.nextPage = response.currentPage + 1
                 self.products.append(contentsOf: response.products)
                 self.reloadProducts?()
                 
@@ -86,8 +86,8 @@ final class ProductListViewModel: ProductListViewModelProtocol {
     }
     
     private func clearValues() {
-        totalPages = 0
-        page = 0
+        totalPages = 1
+        nextPage = 1
         searchQuery = ""
         products.removeAll()
         reloadProducts?()

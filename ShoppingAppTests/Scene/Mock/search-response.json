@@ -1,0 +1,470 @@
+{
+    "products": [
+        {
+            "productId": 793652,
+            "productName": "Apple iPhone X 256GB Zilver",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.2,
+                    "reviewCount": 209
+                }
+            },
+            "USPs": [
+                "256 GB opslagcapaciteit",
+                "5,8 inch Retina HD scherm",
+                "iOS 11"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 1279,
+            "productImage": "https://image.coolblue.nl/300x750/products/984921",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 608152,
+            "productName": "Apple Usb-C to Digital AV Adapter",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.6,
+                    "reviewCount": 41
+                }
+            },
+            "USPs": [
+                "usb c/Thunderbolt 3 (male)",
+                "HDMI, usb c en usb  (female)",
+                "0,2 meter"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 76,
+            "productImage": "https://image.coolblue.nl/300x750/products/406340",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 793593,
+            "productName": "Apple Watch Series 3 38mm Goud Aluminium/Roze Sportband",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.4,
+                    "reviewCount": 208
+                }
+            },
+            "USPs": [
+                "Waterdicht tot 50 meter",
+                "Meet hartslag, slaap, stappen, calorieverbranding en luchtdruk",
+                "Hoge helderheid display (1000 nits)"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 369,
+            "productImage": "https://image.coolblue.nl/300x750/products/884855",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 772981,
+            "productName": "Apple iPad (2017) 32 GB Wifi + 4G Space Gray",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.4,
+                    "reviewCount": 1097
+                }
+            },
+            "USPs": [
+                "9,7 inch Retina scherm",
+                "Internet via wifi en simkaart",
+                "32 GB opslagcapaciteit"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 459,
+            "productImage": "https://image.coolblue.nl/300x750/products/946003",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 793780,
+            "productName": "Apple TV 4K 64GB",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.4,
+                    "reviewCount": 116
+                }
+            },
+            "USPs": [
+                "4K (3840 x 2160)",
+                "Geschikt voor Netflix, iTunes en Apple Music",
+                "App voor iOS"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 219,
+            "productImage": "https://image.coolblue.nl/300x750/products/885100",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 648367,
+            "productName": "Apple iPhone 6s 32GB Zilver",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.2,
+                    "reviewCount": 1273
+                }
+            },
+            "USPs": [
+                "32 GB opslagcapaciteit",
+                "4,7 inch Retina HD scherm",
+                "iOS 11"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 509,
+            "productImage": "https://image.coolblue.nl/300x750/products/982635",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 794086,
+            "productName": "Apple iPhone 7/8 Silicone Back Cover Zwart",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.4,
+                    "reviewCount": 74
+                }
+            },
+            "USPs": [
+                "Origineel Apple-accessoire",
+                "Geschikt voor iPhone 7/8",
+                "Back cover"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 39,
+            "productImage": "https://image.coolblue.nl/300x750/products/893383",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 773388,
+            "productName": "Apple iPhone SE 32GB Zilver",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.2,
+                    "reviewCount": 2246
+                }
+            },
+            "USPs": [
+                "32 GB opslagcapaciteit",
+                "4 inch Retina scherm",
+                "iOS 11"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 339,
+            "productImage": "https://image.coolblue.nl/300x750/products/1022562",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 232406,
+            "productName": "Apple iPod / iPhone USB Power Adapter",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9,
+                    "reviewCount": 36
+                }
+            },
+            "USPs": [
+                "USB A aansluiting",
+                "1,0 A",
+                "1 USB poort"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 24.99,
+            "productImage": "https://image.coolblue.nl/300x750/products/679663",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 340051,
+            "productName": "Apple AirPort Time Capsule 2 TB",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.3,
+                    "reviewCount": 215
+                }
+            },
+            "USPs": [
+                "Gebruiksklaar",
+                "512MB RAM + Dual core CPU",
+                "Back-ups"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 279,
+            "productImage": "https://image.coolblue.nl/300x750/products/234562",
+            "coolbluesChoiceInformationTitle": "Apple gebruikers ",
+            "promoIcon": {
+                "text": "Apple gebruikers ",
+                "type": "coolblues-choice"
+            },
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 793584,
+            "productName": "Apple Watch Series 3 42mm Zilver Aluminium/Grijze Sportband",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.4,
+                    "reviewCount": 208
+                }
+            },
+            "USPs": [
+                "Waterdicht tot 50 meter",
+                "Meet hartslag, slaap, stappen, calorieverbranding en luchtdruk",
+                "Hoge helderheid display (1000 nits)"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 399,
+            "productImage": "https://image.coolblue.nl/300x750/products/884865",
+            "coolbluesChoiceInformationTitle": "een topklasse Apple Watch",
+            "promoIcon": {
+                "text": "een topklasse Apple Watch",
+                "type": "coolblues-choice"
+            },
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 782845,
+            "productName": "Apple MacBook Pro 13'' (2017) MPXQ2N/A Space Gray",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.6,
+                    "reviewCount": 96
+                }
+            },
+            "USPs": [
+                "Krachtig genoeg voor foto's bewerken",
+                "Intel Core i5 2,3GHz - 8GB - 128GB SSD",
+                "Intel Iris Plus 640"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 1349,
+            "productImage": "https://image.coolblue.nl/300x750/products/942668",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 733904,
+            "productName": "Apple iPhone 7 32GB Zilver",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.3,
+                    "reviewCount": 1235
+                }
+            },
+            "USPs": [
+                "32 GB opslagcapaciteit",
+                "4,7 inch Retina HD scherm",
+                "iOS 11"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 575,
+            "listPriceIncVat": 626,
+            "listPriceExVat": 517.35537,
+            "productImage": "https://image.coolblue.nl/300x750/products/985084",
+            "promoIcon": {
+                "text": "aanbieding",
+                "type": "action-price"
+            },
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 809663,
+            "productName": "Apple iPad (2018) 128 GB Wifi + 4G Space Gray",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.6,
+                    "reviewCount": 75
+                }
+            },
+            "USPs": [
+                "9,7 inch Retina scherm",
+                "Internet via wifi en sim kaart",
+                "128 GB opslagcapaciteit"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 579,
+            "productImage": "https://image.coolblue.nl/300x750/products/1009557",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 783156,
+            "productName": "Apple Smart Toetsenbord iPad Pro 10,5 inch QWERTY",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 8.9,
+                    "reviewCount": 21
+                }
+            },
+            "USPs": [
+                "Geschikt voor iPad Pro 10,5 inch",
+                "Keyboard Cover",
+                "Standaard",
+                "Kunststof"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 179,
+            "productImage": "https://image.coolblue.nl/300x750/products/810854",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 782793,
+            "productName": "Apple iPad Pro 10,5 inch 256 GB Wifi Silver",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.8,
+                    "reviewCount": 259
+                }
+            },
+            "USPs": [
+                "10,5 inch HDR Retina scherm",
+                "Internet alleen via wifi",
+                "256 GB opslagcapaciteit"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 839,
+            "productImage": "https://image.coolblue.nl/300x750/products/947068",
+            "coolbluesChoiceInformationTitle": "een topklasse iPad",
+            "promoIcon": {
+                "text": "een topklasse iPad",
+                "type": "coolblues-choice"
+            },
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 648326,
+            "productName": "Apple iPhone 6s 128GB Space Gray",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.2,
+                    "reviewCount": 1273
+                }
+            },
+            "USPs": [
+                "128 GB opslagcapaciteit",
+                "4,7 inch Retina HD scherm",
+                "iOS 11"
+            ],
+            "availabilityState": 3,
+            "salesPriceIncVat": 639,
+            "productImage": "https://image.coolblue.nl/300x750/products/1014061",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 733923,
+            "productName": "Apple iPhone 7 128GB Rose Gold",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.3,
+                    "reviewCount": 1235
+                }
+            },
+            "USPs": [
+                "128 GB opslagcapaciteit",
+                "4,7 inch Retina HD-scherm",
+                "iOS 11"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 729,
+            "productImage": "https://image.coolblue.nl/300x750/products/985077",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 793684,
+            "productName": "Apple iPhone 8 Plus 256GB Space Grey",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.2,
+                    "reviewCount": 216
+                }
+            },
+            "USPs": [
+                "256 GB opslagcapaciteit",
+                "5,5 inch Retina HD scherm",
+                "iOS 11"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 1042.99,
+            "productImage": "https://image.coolblue.nl/300x750/products/982715",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 772986,
+            "productName": "Apple iPad (2017) 128 GB Wifi + 4G Space Gray",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.4,
+                    "reviewCount": 1097
+                }
+            },
+            "USPs": [
+                "9,7 inch Retina scherm",
+                "Internet via wifi en simkaart",
+                "128 GB opslagcapaciteit"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 549,
+            "productImage": "https://image.coolblue.nl/300x750/products/947298",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 793955,
+            "productName": "Apple iPhone X Leather Back Cover Zwart",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.4,
+                    "reviewCount": 75
+                }
+            },
+            "USPs": [
+                "Origineel Apple-accessoire",
+                "Geschikt voor iPhone X",
+                "Back cover"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 59,
+            "productImage": "https://image.coolblue.nl/300x750/products/924916",
+            "nextDayDelivery": true
+        },
+        {
+            "productId": 733902,
+            "productName": "Apple iPhone 7 32GB Rose Gold",
+            "reviewInformation": {
+                "reviews": [],
+                "reviewSummary": {
+                    "reviewAverage": 9.3,
+                    "reviewCount": 1235
+                }
+            },
+            "USPs": [
+                "32 GB opslagcapaciteit",
+                "4,7 inch Retina HD scherm",
+                "iOS 11"
+            ],
+            "availabilityState": 2,
+            "salesPriceIncVat": 629,
+            "productImage": "https://image.coolblue.nl/300x750/products/985071",
+            "nextDayDelivery": true
+        }
+    ],
+    "currentPage": 3,
+    "pageSize": 22,
+    "totalResults": 70,
+    "pageCount": 3
+}
