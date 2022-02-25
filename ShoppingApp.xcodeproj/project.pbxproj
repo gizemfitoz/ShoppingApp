@@ -23,6 +23,12 @@
 		1CC157EF27C575D0008C6919 /* ProductListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157EE27C575D0008C6919 /* ProductListCoordinator.swift */; };
 		1CC157F127C575DA008C6919 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157F027C575DA008C6919 /* ProductListViewModel.swift */; };
 		1CC157F927C58819008C6919 /* Service in Frameworks */ = {isa = PBXBuildFile; productRef = 1CC157F827C58819008C6919 /* Service */; };
+		1CC157FC27C81FA4008C6919 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157FB27C81FA4008C6919 /* ProductCell.swift */; };
+		1CC157FE27C81FAD008C6919 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CC157FD27C81FAD008C6919 /* ProductCell.xib */; };
+		1CC1580027C824DA008C6919 /* ProductCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC157FF27C824DA008C6919 /* ProductCellViewModel.swift */; };
+		1CC1580327C825A9008C6919 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1CC1580227C825A9008C6919 /* SDWebImage */; };
+		1CC1580627C8413C008C6919 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1580527C8413C008C6919 /* UITableViewExtensions.swift */; };
+		1CC1580827C84340008C6919 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC1580727C84340008C6919 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +69,11 @@
 		1CC157EE27C575D0008C6919 /* ProductListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListCoordinator.swift; sourceTree = "<group>"; };
 		1CC157F027C575DA008C6919 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
 		1CC157F427C57E7A008C6919 /* Service */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Service; sourceTree = "<group>"; };
+		1CC157FB27C81FA4008C6919 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		1CC157FD27C81FAD008C6919 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		1CC157FF27C824DA008C6919 /* ProductCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCellViewModel.swift; sourceTree = "<group>"; };
+		1CC1580527C8413C008C6919 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		1CC1580727C84340008C6919 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC1580327C825A9008C6919 /* SDWebImage in Frameworks */,
 				1CC157F927C58819008C6919 /* Service in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -118,6 +130,7 @@
 			children = (
 				1CC157E027C574C0008C6919 /* App */,
 				1CC157E727C5756B008C6919 /* Scene */,
+				1CC1580427C84129008C6919 /* Extension */,
 				1CC157F227C57BEE008C6919 /* Resources */,
 				1CC157B927C5720E008C6919 /* LaunchScreen.storyboard */,
 				1CC157BC27C5720E008C6919 /* Info.plist */,
@@ -157,6 +170,8 @@
 		1CC157E727C5756B008C6919 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				1CC1580927C8437A008C6919 /* Base */,
+				1CC157FA27C81F94008C6919 /* Views */,
 				1CC157EE27C575D0008C6919 /* ProductListCoordinator.swift */,
 				1CC157EA27C5759E008C6919 /* ProductListContracts.swift */,
 				1CC157EC27C575A8008C6919 /* ProductList.storyboard */,
@@ -181,6 +196,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1CC157FA27C81F94008C6919 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CC157FB27C81FA4008C6919 /* ProductCell.swift */,
+				1CC157FD27C81FAD008C6919 /* ProductCell.xib */,
+				1CC157FF27C824DA008C6919 /* ProductCellViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1CC1580427C84129008C6919 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1CC1580527C8413C008C6919 /* UITableViewExtensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1CC1580927C8437A008C6919 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1CC1580727C84340008C6919 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,6 +240,7 @@
 			name = ShoppingApp;
 			packageProductDependencies = (
 				1CC157F827C58819008C6919 /* Service */,
+				1CC1580227C825A9008C6919 /* SDWebImage */,
 			);
 			productName = ShoppingApp;
 			productReference = 1CC157AB27C5720C008C6919 /* ShoppingApp.app */;
@@ -272,6 +314,9 @@
 				Base,
 			);
 			mainGroup = 1CC157A227C5720C008C6919;
+			packageReferences = (
+				1CC1580127C825A9008C6919 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 1CC157AC27C5720C008C6919 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -289,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CC157BB27C5720E008C6919 /* LaunchScreen.storyboard in Resources */,
+				1CC157FE27C81FAD008C6919 /* ProductCell.xib in Resources */,
 				1CC157B827C5720E008C6919 /* Assets.xcassets in Resources */,
 				1CC157ED27C575A8008C6919 /* ProductList.storyboard in Resources */,
 			);
@@ -315,13 +361,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC1580027C824DA008C6919 /* ProductCellViewModel.swift in Sources */,
 				1CC157E227C574EE008C6919 /* AppCoordinator.swift in Sources */,
 				1CC157E927C57579008C6919 /* ProductListViewController.swift in Sources */,
+				1CC1580627C8413C008C6919 /* UITableViewExtensions.swift in Sources */,
 				1CC157EB27C5759E008C6919 /* ProductListContracts.swift in Sources */,
 				1CC157EF27C575D0008C6919 /* ProductListCoordinator.swift in Sources */,
 				1CC157E427C57508008C6919 /* Coordinator.swift in Sources */,
 				1CC157F127C575DA008C6919 /* ProductListViewModel.swift in Sources */,
 				1CC157AF27C5720C008C6919 /* AppDelegate.swift in Sources */,
+				1CC1580827C84340008C6919 /* BaseViewController.swift in Sources */,
+				1CC157FC27C81FA4008C6919 /* ProductCell.swift in Sources */,
 				1CC157B127C5720C008C6919 /* SceneDelegate.swift in Sources */,
 				1CC157E627C5752D008C6919 /* AppContainer.swift in Sources */,
 			);
@@ -494,6 +544,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T8PQU423F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShoppingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -521,6 +572,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4T8PQU423F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShoppingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -654,10 +706,26 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		1CC1580127C825A9008C6919 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		1CC157F827C58819008C6919 /* Service */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Service;
+		};
+		1CC1580227C825A9008C6919 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CC1580127C825A9008C6919 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

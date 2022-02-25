@@ -8,13 +8,10 @@
 import UIKit
 
 final class ProductListCoordinator: Coordinator {
-    var rootViewController: UINavigationController!
-
     func start() -> UIViewController {
         let viewController = UIStoryboard(name: "ProductList", bundle: .main)
             .instantiateViewController(withIdentifier: "ProductListViewController") as! ProductListViewController
-        rootViewController = UINavigationController(rootViewController: viewController)
-        viewController.viewModel = ProductListViewModel()
+        viewController.viewModel = ProductListViewModel(service: app.service)
         return viewController
     }
 }

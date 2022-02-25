@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import Service
 
 let app = AppContainer()
 
 final class AppContainer {
-    var appCoordinator: AppCoordinator!
+    let appCoordinator = AppCoordinator()
+    let service = ShoppingService()
 }
